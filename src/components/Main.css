@@ -1,0 +1,181 @@
+.heading{
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+font-size: 3rem;
+font-weight: 600;
+margin-top: 30px;
+color: #2b2810;
+
+
+}
+    
+.main{
+    background-color: #F1EFEF;
+
+}
+.balance{
+    background-color: #191717;
+    color: #F1EFEF;
+    width: 600px;
+    height: 200px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 50px;
+}
+.balance h1{
+    font-size: 4rem;
+}
+.income{
+    width: 300px;
+    height: 180px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;      display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.expense{
+    width: 300px;
+    height: 180px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.income h3{
+    color: green;
+}
+.expense h3{
+    color: red;
+}
+.trans{
+    width: 400px;
+    height: 510px;
+    padding: 20px;
+    background-color: #CCC8AA;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;    margin-top: 50px;
+    border-radius: 20px;
+    background-color: #213555;
+
+}
+.trans h3,h6{
+    color: #E5D283;
+}
+.aaa input{
+    width: 350px;
+    height: 40px;
+    border: 1px solid #CCC8AA;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background-color: #213555;
+    color: #E5D283;
+    
+}
+.trans h6{
+    margin-top: 30px;
+
+}
+.bttt{
+    margin-top: 50px;
+}
+.fl{
+    width: 1150px;
+}
+.bttt input{
+    background-color: #f3d354;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.bttt input:hover{
+    background-color: white;
+}
+.history{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.add{
+    margin-top: 30px;
+}
+.add label{
+    font-size: 1.5rem;
+    margin-right: 30px;
+}
+.add .bt{
+    width: 340px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid;
+    background-color:#F1EFEF;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.add .btttn{
+    width: 170px;
+    height: 50px;
+    margin-left: 10px;
+    background-color:black;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.history table{
+    width: 900px;
+    
+    padding: 20px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 50px;
+}
+.his{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+th,td{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+.colo{
+    width: .5px;
+    height: 30px;
+    color: red;
+    margin-top: 5px;
+}
+@media (max-width:600px) {
+    .balance{
+        width: 350px;
+    }
+    .income{
+        width: 175px;
+    }
+    .expense{
+        width: 175px;
+    }
+    .add .btttn{
+        margin-top: 10px;
+    }
+    .trans{
+        width: 350px;
+    }
+    .aaa input{
+        width: 300px;
+    }
+    .heading{
+        font-size: 2.5rem;
+    }
+
+
+    
+}
